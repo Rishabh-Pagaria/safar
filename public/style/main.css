@@ -1,0 +1,30 @@
+body{
+    background-color: #f3f3f3;
+}
+.navbar-brand{
+    height: 100%;
+}
+.navbar{
+    position: relative;
+    background-color: #f3f3f3;
+    border-bottom: 5px solid black;
+}
+li a{
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    margin: 0 10px 0 10px;
+}
+.landing{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1000;
+}
+.landingImg{
+    min-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
